@@ -18,4 +18,8 @@ class TestBear < MiniTest::Test
     assert_equal("Brown", @bear2.type)
   end
 
+  def test_bear_takes_fish
+    
+  end
+
 end
