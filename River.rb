@@ -11,4 +11,8 @@ class River
     return @fish_array.length
   end
 
+  def remove_fish(fish)
+    @fish_array.delete(fish)
+  end
+
 end

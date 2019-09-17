@@ -12,8 +12,12 @@ class Bear
     return @stomach.length
   end
 
-  def takes_fish_from(river)
-    @stomach.push(river)
-  end
+  # def takes_fish_from()
+  #   filled_stomach = []
+  #   for fish in @river(:fish_array)
+  #     fish += filled_stomach
+  #   end
+  #   @stomach.push(filled_stomach)
+  # end
 
 end
