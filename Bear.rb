@@ -8,4 +8,12 @@ class Bear
     @stomach = []
   end
 
+  def stomach_fish_count
+    return @stomach.length
+  end
+
+  # def eat_fish(river)
+  #
+  # end
+
 end
