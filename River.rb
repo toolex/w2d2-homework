@@ -1,8 +1,8 @@
 class River
 
-  attr_reader(:name, :fish_array)
+  attr_reader(:name)
 
-  def initialize(name,array_of_fish)
+  def initialize(name, array_of_fish)
     @name = name
     @fish_array = array_of_fish
   end

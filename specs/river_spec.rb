@@ -5,6 +5,8 @@ require_relative("../Fish")
 
 class TestRiver < MiniTest::Test
 
-
+  def setup
+    @river = River.new("Ganges", @shoal)
+  end
 
 end

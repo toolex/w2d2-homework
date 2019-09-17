@@ -8,6 +8,7 @@ class TestFish < MiniTest::Test
     @fish1 = Fish.new("Bob")
     @fish2 = Fish.new("Kirsty")
     @fish3 = Fish.new("Paul")
+    @shoal = [@fish1, @fish2, @fish3]
   end
 
   def test_fish_has_name
