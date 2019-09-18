@@ -2,12 +2,21 @@ require("minitest/autorun")
 require("minitest/rg")
 require_relative("../Bear")
 require_relative("../River")
+require_relative("../Fish")
 
 class TestBear < MiniTest::Test
 
   def setup
     @bear1 = Bear.new("Yogi", "Black")
     @bear2 = Bear.new("Baloo", "Brown")
+
+    @fish1 = Fish.new("Bob")
+    @fish2 = Fish.new("Kirsty")
+    @fish3 = Fish.new("Paul")
+
+    @shoal = [@fish1, @fish2, @fish3]
+
+    @river = River.new("Ganges", @shoal)
   end
 
   def test_bear_has_name
